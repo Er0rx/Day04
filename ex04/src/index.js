@@ -1,9 +1,12 @@
 function main() {
-    var myRes = 16;
     // Only change code below this line
-    myRes--;
+    var myDecimal = 8.2;
+    var myDecimalE = 0.00254;
     // Only change code above this line
-    return myRes;
+    return {
+        myDecimal,
+        myDecimalE
+    };
 }
 
 console.log(main());
